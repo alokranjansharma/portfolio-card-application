@@ -1,6 +1,6 @@
 import Profile from "../profile-image/Profile"
 import Name from "../name/Name"
-import Title from "../Title/Title"
+import Title from "../title/Title"
 import Bio from "../bio/Bio"
 import Skills from "../skills/Skills"
 import Like from "../like/Like"
