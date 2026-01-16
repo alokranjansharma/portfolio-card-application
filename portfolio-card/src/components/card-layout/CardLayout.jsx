@@ -1,4 +1,4 @@
-import Profile from "../profile-image/profile"
+import Profile from "../profile-image/Profile"
 import Name from "../name/Name"
 import Title from "../Title/Title"
 import Bio from "../bio/Bio"
