@@ -1,0 +1,38 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f6f6f6;
+}
+
+.light {
+  --primary-color-bg: white;
+  --secondary-color: #4B5563;
+  --title-color-1: #6F6F6F;
+  --title-color: #111827;
+}
+
+.dark {
+  --primary-color-bg: #4B5563;
+  --secondary-color: white;
+  --title-color-1: white;
+  --title-color: white;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+

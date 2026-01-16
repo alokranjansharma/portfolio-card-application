@@ -1,0 +1,23 @@
+
+
+.like-btn {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    color: var(--title-color);
+}
+
+.like-btn svg {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.like-count {
+    font-size: 16px;
+    font-weight: 600;
+}

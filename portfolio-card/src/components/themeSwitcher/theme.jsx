@@ -1,0 +1,26 @@
+import './theme.css'
+
+export default function ThemeSwitcher({ theme, themeSwitcher }) {
+  const nextTheme = theme === 'light' ? 'dark' : 'light';
+
+  return (
+    <button className="themeSwitcher" onClick={themeSwitcher}>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path d="M21 12.79A9 9 0 1 1 11.21 3
+                7 7 0 0 0 21 12.79z"/>
+      </svg>
+
+      {nextTheme.charAt(0).toUpperCase() + nextTheme.slice(1)}
+    </button>
+  );
+}

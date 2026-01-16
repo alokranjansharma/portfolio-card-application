@@ -1,0 +1,31 @@
+.card-layout {
+    background-color: var(--primary-color-bg);
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.25);
+    max-width: 580px;
+    transition: background-color -.3s linear;
+}
+
+.card-layout-top {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 32px;
+    align-items: center;
+}
+
+.card-layout-middle {
+    padding-top: 20px;
+}
+
+.card-layout-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.card-layout-bottom {
+    margin-top: 48px;
+}

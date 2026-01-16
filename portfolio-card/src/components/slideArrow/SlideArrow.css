@@ -1,0 +1,30 @@
+.slide-arrow-wrap {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    color: var(--title-color);
+}
+
+.slide-arrow-wrap button {
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    background: transparent;
+    cursor: pointer;
+    color: var(--title-color);
+}
+
+.slide-arrow-wrap button svg {
+    width: 30px;
+    height: 30px;
+}
+
+.slide-indicator {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.slide-arrow-wrap button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
